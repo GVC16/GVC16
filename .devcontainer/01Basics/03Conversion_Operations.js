@@ -15,6 +15,11 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let someNumber = 3567;
 let stringNumber = string(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
 
+//-----------------
+let str1 = "Hello";
+let str2 = " Gaurav!";
+let str3 = str1 + str2;
+console.log(str3);
