@@ -27,3 +27,8 @@ console.log(str3);
 console.log(1 + 2 + "2"); // do not
 console.log(+true); // write
 console.log(+""); // this kind of code
+
+
+let num1, num2, num3; //declaring multiple variable 
+num1 = num2 = num3 = 3654; // assigning multiple variables with same value
+
