@@ -24,3 +24,6 @@ let str2 = " Gaurav!";
 let str3 = str1 + str2;
 console.log(str3);
 
+console.log(1 + 2 + "2"); // do not
+console.log(+true); // write
+console.log(+""); // this kind of code
