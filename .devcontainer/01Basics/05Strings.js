@@ -14,8 +14,29 @@ const myAnotherName = new String('Gaurav Chourasiya'); //another way to declare 
 const myNewString = myAnotherName.substring(7, 17);
 console.log(myNewString);
 
-const myAnotherNewString = myAnotherName.slice(-16, 4);
-console.log(myAnotherNewString);
+const myAnotherNewString = myAnotherName.slice(-17, -11); // method with reverse string, selecting portion of string
+console.log(myAnotherNewString); // Will print "Gaurav" 
+
+const newStringOne = "  Abeyaar         "; //string having pre and post white spaces 
+console.log(newStringOne.trim());
+
+/*
+Note:
+All string methods return a new string. They don't modify the original string.
+
+Formally said:
+Strings are immutable: Strings cannot be changed, only replaced.
+*/
+
+const url = "https://gauravchourasiya.com/gaurav%28javascript";
+console.log(url.replace('%28', '-'));
+
+
+
+
+
+
+
 
 
 
