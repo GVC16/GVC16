@@ -35,7 +35,19 @@ myArray.pop() // removes last element from the array
 // console.log(myArray.indexOf(3)); // returns the index number of passed parameter if exist in the array otherwise -1
 
 const newArray = myArray.join(); //converts array to the string
-console.log(newArray); //returns array having string datatype
+//console.log(newArray); //returns array having string datatype
+
+// Slice and Splice
+console.log("A", myArray);
+
+const mySlicedArray = myArray.slice(0, 3); // only creates the new array from original array, keeping original array intact
+console.log("B", mySlicedArray);
+const mySplicedArray = myArray.splice(1, 3); // splices the original array and create new array making original array changed
+console.log("C", mySplicedArray); 
+console.log(myArray); //After Splice method the original array has been changed
+
+
+ 
 
 
 
