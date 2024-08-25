@@ -27,12 +27,12 @@ myUser.greetings = function(){
     console.log("Hello my User!");
 
 };
-console.log(myUser.greetings()); // giving Function (anonymous)
+// console.log(myUser.greetings()); // giving Function (anonymous)
 
 myUser.greetings2 = function(){
     console.log(`Hello my User ${this.name}`);  
 };
-console.log(myUser.greetings2());
+// console.log(myUser.greetings2());
 
 //***********************************************************
 
@@ -57,7 +57,7 @@ const regularUser  ={
     }
 }
 
-console.log(regularUser.fullname.userfullname.firstname);
+// console.log(regularUser.fullname.userfullname.firstname);
 
 const object1 = {
     1: "a",
@@ -71,7 +71,7 @@ const object2 = {
 //const object3 = Object.assign({}, object1, object2);
 
 const object3 = {...object1, ...object2}
-console.log(object3);
+// console.log(object3);
 
 const users = [
     {
@@ -87,15 +87,38 @@ const users = [
         email: "b@yahoo.com"
     }
 ]
-console.log(users[1].email);
+// console.log(users[1].email);
 
-console.log(Object.keys(instaUser));
-console.log(Object.values(instaUser));
-console.log(Object.entries(instaUser));
-console.log(instaUser.hasOwnProperty('isLoggedIn'));
+// console.log(Object.keys(instaUser));
+// console.log(Object.values(instaUser));
+// console.log(Object.entries(instaUser));
+// console.log(instaUser.hasOwnProperty('isLoggedIn'));
 
+//*******************************************************************************************************************
 
+const course ={
+    courseName: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+};
+//course.courseInstructor // this is one way to extract the object properties
 
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+//JSON:
+/*
+{
+    "courseName": " JavaScript in Hindi",
+    "instructor": "Hitesh",
+    "price": "free"
+}
+*/
+[
+    {},
+    {},
+    {}
+]
 
 
 
