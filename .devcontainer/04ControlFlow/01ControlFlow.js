@@ -32,12 +32,69 @@ if (score >300) {
 //below: What not to do as standard practice of writing clean code although the code is correct
 // if(balance > 500) console.log("test1"), console.log("Test2");
 
+const userLoggedIn = true;
+const debitCard = true;
+const loggedInFromGoogle = false;
+const loggedInFromEmail = true;
 
+if (userLoggedIn && debitCard && 2 ==3){
+    console.log("Allow to buy course");
+}
+if (loggedInFromGoogle || loggedInFromEmail){
+    console.log("User Logged in");
+}
 
+/* Switch Case */
+// switch (key) {
+//     case value:
+        
+//         break;
 
+//     default:
+//         break;
+// }
 
+const month = 3;
+switch (month) {
+    case 1:
+        console.log("January");
+        
+        break;
+    case 2:
+        console.log("February");
+        break;
+    case 3:
+        console.log("March");
+        break;
+    case 4:
+        console.log("April");
+        break;
+        
+    default:
+        console.log("Default executed");
+        
+        break;
+}
 
-
+const day = "Tuesday";
+switch (day) {
+    case "Monday":
+        console.log("Monday");
+        break;
+    case "Tuesday":
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thusrday");
+        break;
+        
+    default:
+        console.log("Default executed");
+        break;
+}
 
 
 
