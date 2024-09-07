@@ -32,3 +32,22 @@ console.log(+""); // this kind of code
 let num1, num2, num3; //declaring multiple variable 
 num1 = num2 = num3 = 3654; // assigning multiple variables with same value
 
+//Nullish Coalescing Operator (??): null, undefined
+let val1;
+//val1 = 5 ?? 40;
+//val1 = null ?? 40;
+val1 = undefined ?? 40;
+//console.log(val1);
+
+// Ternary operator
+// condition ? true : false
+
+const icecream = 100;
+icecream <= 80 ? console.log("less than 80") : console.log("more than 80");
+
+
+
+
+
+
+
